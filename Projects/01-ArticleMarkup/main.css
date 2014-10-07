@@ -30,7 +30,8 @@ margin: 0;
 
 .Article{
 font-family: Georgia;
-font-style:bold italic;
+font-style:bold; 
+font-style: italic;
 font-size:14px;
 line-height: 1;
 font-color: #999;
@@ -49,6 +50,13 @@ padding: 10px 0 10px 0;
 	padding:0px 30px;
 	background-color: #e3e3e3;
 
+}
+
+.Dividers{
+
+	border-style: solid;
+	border: 1px;
+	margin: 10px;
 }
 
 ul li a{
