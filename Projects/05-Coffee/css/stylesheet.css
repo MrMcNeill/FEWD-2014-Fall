@@ -1,0 +1,211 @@
+.logo_area {
+	
+	display:block;
+	height: 300px;
+
+	background: url(../images/beans.jpg);
+	color: #fff;
+	margin-top:50px;
+	margin-bottom:50px;
+	position:relative;
+
+}
+
+.logo{
+	background: url(../images/logo.png);
+	display:block;
+	height: 103px;
+
+
+	margin: auto;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+
+	position: absolute;
+	width:271px;
+
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+}
+
+/* Mobile Only*/
+
+@media screen and (max-width: 739px) {
+
+	.gridlock .logo_row,
+	.gridlock .logo_area{
+		display:block;
+		width:100%;
+		height: 275px;
+		margin:0;
+		
+			}
+
+	.menu_item_mobile {
+	border:none;
+	}
+
+	.headings_3 {
+		text-align: center;
+	}
+
+	
+}
+
+
+/* Desktop Only */
+
+
+@media screen and (min-width: 979px) {
+
+	.menu_item_desktop_last_ {
+	border:none;
+	
+	}
+
+}
+
+
+
+.background_Bar{
+	background:#F6F6F6;
+
+}
+
+.headings_{
+	font-family: Georgia, serif;	
+	line-height: 1em;
+
+}
+
+.headings_2 h2{
+
+	font-size: 28px;
+	color:#6D3B1C;
+	text-align: center;
+
+
+}
+
+.info_{
+
+	font-family: Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	color: #666666;
+
+
+
+}
+
+
+
+.headings_3{
+
+	font-size: 20px;
+	font-color: red;
+
+
+	
+}
+
+
+.sub_heading {
+	text-align: center;
+	font-size: 32px;
+	color: #261913;
+
+}
+
+.mission {
+	color: gray;
+	font-family: Georgia, serif;
+	text-align: center;
+
+
+}
+
+.product_ {
+	font-family:Helvetica, sans-serif;
+	line-height: 1.5em;
+	background: #F6F6F6;
+
+	
+
+
+}
+
+.background_Bar li{
+	list-style: none;
+	line-height:2.0;
+
+}
+
+
+
+.product_Info{
+	color:#666666;
+	font-size: 15px;
+
+}
+
+.product_Price{
+
+	color:#999999;
+	float: right;
+	padding-right:30px;
+
+
+}
+
+.divder{
+	border-color: gray;
+	border:0.5px;
+
+
+}
+
+.menu_item {
+	border-bottom: 1px gray solid;
+	
+	}
+
+.footer_logo h4{
+
+	background: url(../images/icon.png);
+	display:block;
+	
+	color: #fff;
+	position:relative;
+	background-repeat: no-repeat;
+    text-indent: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+
+}
+
+.footer_area{
+
+display:block;
+background-color: #241915;
+height: 100px;
+color: #fff;
+margin-top:50px;
+margin-bottom:50px;
+	
+
+}
+.footer_area li{
+	display: inline;
+	list-style: none;
+
+
+}
+
+
+
+
+

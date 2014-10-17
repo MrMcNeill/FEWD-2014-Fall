@@ -1,6 +1,8 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
+		<link rel="stylesheet" href="main.css">
+		<meta charset="utf-8"> 
 	</head>
 
 
@@ -8,9 +10,9 @@
 	<body>
 		<div id="frame">
 			<div id="content">
-				<h1> Order Form </h1>
+				<h1 id="page_title"> Order Form </h1>
 
-					<table border="1px" cellpadding="5">
+					<table cellpadding="5" class="items">
 							<tr>
 								<th>  Description </th>
 								<th>  Price  </th>
@@ -38,22 +40,32 @@
 					</table>
 
 
-					<h2> Customer Information </h2>
+					<h2 class="section_title"> Customer Information </h2>
 					
 
 					
 
 						<fieldset>
 							<legend> Name </legend>
-							First Name
-							<br>
-							<input type="text" name="First_Name" value=""> 
-							<br>
+							<table>
+								<tr>
+									<th>First </th>
+									<th> Second </th>
+								</tr>
+								
+								<tr>
+										<td>
+											<input type="text" name="First_Name" value=""> 
+										</td>
 
-							Second Name
-							<br>
-							<input type="text" name="Second_Name" value=""> 
-							<br>
+										<td>
+											<input type="text" name="Second_Name" value=""> 
+										</td>
+
+								</tr>
+									
+										
+							</table>
 						</fieldset>
 
 					
@@ -90,16 +102,15 @@
 							<legend> Contact </legend>
 							Email
 							<br>
-							<input type="text" name="email" value=""> 
+							<input type="text" name="email" value="" > 
 							<br>
 
 							Phone
-							<br>
-							<input type="text" name="phone" value=""> 
+							<input type="text" name="phone" value="" > 
 							<br>
 						</fieldset>
 						<br>
-						<input type="button" name="submit" value="Sumbit Order Form">
+						<input type="button" name="submit" value="Sumbit Order Form" class="button">
 
 
 
