@@ -24,6 +24,25 @@ font-family: 'Roboto', san-serif;
 
 }
 
+.intro_row{
+	position: relative;
+
+}
+
+.intro_row:before{
+	background:url(../images/intro_phone.png) no-repeat center top;
+	content:"";
+	display:block;
+	height:554px;
+	right: 200px;
+	position:absolute;
+	width: 325px;
+	bottom:0;
+
+
+
+}
+
 .background_hero {
 	
 	display: block;
@@ -32,14 +51,16 @@ font-family: 'Roboto', san-serif;
 	margin-top: 10px;
 	margin-left: 0px;
 	margin-right: 0px;
-	padding-bottom: 45px;
-	border-bottom: 45px;
-
+	margin-bottom: 100px;
 	background: url(../images/intro_bg.jpg);
 	background-color: #e77e04;
+}
+.background_hero:after{
+	content: "";
 
 
 }
+
 
 .hero_images img{
 	display: inline;
@@ -82,7 +103,8 @@ font-family: 'Roboto', san-serif;
 
 .gallery_background{
 	background-color: #DFDFDF ;
-	padding-bottom:20px; 
+	padding-bottom:20px;
+	padding-top:20px;  
 
 
 }
