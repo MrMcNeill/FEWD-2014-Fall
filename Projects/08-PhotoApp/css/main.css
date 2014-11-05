@@ -26,6 +26,7 @@ font-family: 'Roboto', san-serif;
 
 .intro_row{
 	position: relative;
+	padding-bottom: 50px;
 
 }
 
@@ -45,15 +46,12 @@ font-family: 'Roboto', san-serif;
 
 .background_hero {
 	
+	background: url(../images/intro_bg.jpg);
+	background-color: #e77e04;
 	display: block;
 	height: 100%;
 	width: 100%;
-	margin-top: 10px;
-	margin-left: 0px;
-	margin-right: 0px;
-	margin-bottom: 100px;
-	background: url(../images/intro_bg.jpg);
-	background-color: #e77e04;
+	margin: 10px 0 100px 0;
 }
 .background_hero:after{
 	content: "";
@@ -68,7 +66,7 @@ font-family: 'Roboto', san-serif;
 
 }
 
-.info_hero{
+.hero_info{
 	color: #fff;
 	font-size: 20px;
 	line-height: 1.5em;
@@ -172,6 +170,8 @@ font-family: 'Roboto', san-serif;
 .button_contain {
 
 	text-align: center;
+
+
 
 
 
@@ -457,11 +457,13 @@ font-family: 'Roboto', san-serif;
 
 @media screen and (max-width: 739px) {
 
-	.hero_image{
+	.intro_row:before{
 	
 	display: none;
 
 	}
+
+
 
 }
 
