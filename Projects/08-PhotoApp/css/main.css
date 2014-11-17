@@ -34,8 +34,8 @@ font-family: 'Roboto', san-serif;
 	background:url(../images/intro_phone.png) no-repeat center top;
 	content:"";
 	display:block;
-	height:554px;
-	right: 200px;
+	height:450px;
+	right: 100px;
 	position:absolute;
 	width: 325px;
 	bottom:0;
@@ -51,7 +51,7 @@ font-family: 'Roboto', san-serif;
 	display: block;
 	height: 100%;
 	width: 100%;
-	margin: 10px 0 100px 0;
+	margin: 10px 0 40px 0;
 }
 .background_hero:after{
 	content: "";
@@ -100,7 +100,7 @@ font-family: 'Roboto', san-serif;
 /* Gallery */
 
 .gallery_background{
-	background-color: #DFDFDF ;
+	background-color: #C8FEC0 ;
 	padding-bottom:20px;
 	padding-top:20px;  
 
@@ -112,7 +112,7 @@ font-family: 'Roboto', san-serif;
 	font-weight: lighter;
 	font-size: 36px;
 	line-height: 1em;
-
+	text-align: center;
 	color: #2b3f4c;
 
 
@@ -186,14 +186,19 @@ font-family: 'Roboto', san-serif;
 .feature_header{
 
 	
+	
 	color: #e77e04;
 
 }
 
+
+
 .feature_details{
+	text-align: center;
 	font-size: 16px;
 	line-height: 1.5em;
 	color: #777777;
+	margin-bottom: 50px;
 
 
 }
@@ -203,8 +208,10 @@ font-family: 'Roboto', san-serif;
 	font-family: 'Roboto Condensed', 'san-serif';
 	font-weight: lighter;
 	font-size: 42px;
-	line-height: 1;
+	line-height: 1em;
 	color:#e77e04;
+	text-align: center;
+
 }
 
 .contain_center{
@@ -213,7 +220,7 @@ font-family: 'Roboto', san-serif;
 }
 
 .tag_{
-	margin-bottom:25px;
+	
 	text-align: center;
 }
 
@@ -227,6 +234,8 @@ font-family: 'Roboto', san-serif;
 	width: 66px;
 	clear:both;
 	margin-top:25px;
+	margin-bottom:25px; 
+	
 }
 
 
@@ -240,6 +249,7 @@ font-family: 'Roboto', san-serif;
 	width: 80px;
 	clear:both;
 	margin-top:25px;
+	margin-bottom:25px; 
 	
 }
 
@@ -253,6 +263,8 @@ font-family: 'Roboto', san-serif;
 	width: 60px;
 	clear:both;
 	margin-top:25px;
+	margin-bottom:25px; 
+	
 
 
 }
@@ -291,6 +303,20 @@ font-family: 'Roboto', san-serif;
 	white-space: nowrap;
 }
 
+#twitter a,
+#facebook a,
+#google_plus a{
+
+	background: black;
+	width:60px;
+
+}
+
+
+
+
+
+
 #facebook{
 
 	background: url(../images/icon_sprite.png) no-repeat -80px 0;
@@ -302,6 +328,11 @@ font-family: 'Roboto', san-serif;
 	text-indent: 100%;
 	white-space: nowrap;
 }
+
+
+
+
+
 
 #google_plus{
 
@@ -323,10 +354,19 @@ font-family: 'Roboto', san-serif;
 }
 
 .magnets_background{
-
+	display: inline;
 	background-color: black;
 	border-left:20px;
 	border-radius: 5px;
+}
+
+.magnet_links{
+	text-align: center;
+	margin-left: 0;
+	margin-right: 0;
+	margin: auto;
+
+
 }
 
 #apple_{
@@ -342,9 +382,7 @@ font-family: 'Roboto', san-serif;
 	border-radius: 5px;
 	
 
-	margin-left: 0;
-	margin-right:  0;
-	margin:auto;
+	
 	margin-bottom: 10px;
 
 
@@ -361,13 +399,15 @@ font-family: 'Roboto', san-serif;
 
 	display:block;
 	background: url(../images/icon_sprite.png) no-repeat -35px -260px;
+	background-color: black;
 	text-align: center;
 	height:50px;
 	width: 140px;
 	
-	margin-left: 0;
-	margin-right:  0;
-	margin:auto;
+	border-left:20px;
+	border-radius: 5px;
+	
+	
 	margin-bottom: 10px;
 
 
@@ -393,9 +433,7 @@ font-family: 'Roboto', san-serif;
 	
 
 	
-	margin-left: 0;
-	margin-right:  0;
-	margin: auto;
+	
 	margin-bottom: 50px;
 
 	overflow: hidden;
@@ -417,10 +455,16 @@ font-family: 'Roboto', san-serif;
 	border-style: solid none none none;
 	border-top: 1px solid #CFD1C9;
 	padding-top: 30px;
+	margin-top: 50px;
 
 
 
 
+}
+
+.footer_container{
+
+	text-align: center;
 }
 
 .privacy_terms{
@@ -441,15 +485,21 @@ font-family: 'Roboto', san-serif;
 
 .copyright_{
 	color:#777777;
-	text-align: center;
+	line-height: 1.5em;
+	
 
 }
 
 .center_class{
 	text-align: center;
+	margin-left:0;
+	margin-right:0;
+	margin: auto;
 
 
 }
+
+
 
 
 /* Mobile Only */
@@ -463,24 +513,113 @@ font-family: 'Roboto', san-serif;
 
 	}
 
+	#google_play, #amazon_, #apple_ {
+
+	display:block;
+	margin-left: 0;
+	margin-right:  0;
+	margin:auto;
+
+	margin-bottom: 10px;
+	margin-top: 10px;
+
+	width: 100%;
+	}
+
+
+
+	.copyright_{
+	text-align: center;
+	
+
+}
+
+.first_clear{
+
+	clear:right;
+}
+
+
+
 
 
 }
 
+/* Tablet Only */
+
+
+@media screen and (min-width : 739px) and (max-width : 949px){
+
+	.intro_row:before{
+	
+	right:-100px;
+
+	}
+
+	.button {
+	color: #e77e04;
+	display: inline-block;
+	background:#fff;
+	font-size: 14px;
+	padding:10px 20px;
+	border-radius: 3px;
+	width:300px;
+	border: 0 10px 0 10px;
+	margin: 0;
+	margin: auto;
+	
+	
+	text-decoration: none;
+	text-transform: uppercase;
+
+
+}
+
+#google_play, #amazon_ , #apple_ {
+
+	display: inline-block;
+	text-align: center;
+
+	margin-bottom: 0px;
+}
+
+.tablet_center{
+	text-align: center;
+}
+
+.first_clear{
+
+	clear:right;
+}
+
+.gallery_header{
+
+	text-align: left;
+}
+	
+
+
+}
 
 /* Desktop Only */
 
 
-@media screen and (min-width: 979px) {
+@media screen and (min-width: 969px) {
 
 	.background_hero{
 	padding-bottom: 0;
 	padding-top: 0;
+	
 
 
 
 	
 
+	}
+
+	.feature_hero_detail,{
+
+		text-align: left;
 	}
 
 	.hero_image{
@@ -489,10 +628,17 @@ font-family: 'Roboto', san-serif;
 
 	}
 
+	#google_play, #amazon_ , #apple_ {
+
+	display: inline-block;
+	
+	margin-bottom: 0px;
+	margin-right: 10px;
 }
+
+}
+
+
 
 	
-}
-
-
-;
+};
