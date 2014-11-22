@@ -11,6 +11,7 @@
 		<link href='http://fonts.googleapis.com/css?family=Roboto:400italic,400,700italic,700|Roboto+Condensed:300' rel='stylesheet' type='text/css'>
 
 		<script src="components/modernizr/modernizr.js"></script>
+		<script src="components/jquery/dist/jquery.min.js"></script>
 
 	</head>
 

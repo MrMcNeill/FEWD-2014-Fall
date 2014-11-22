@@ -9,8 +9,16 @@
 
 		<link rel="stylesheet" href="css/site.min.css">
 		<link href='http://fonts.googleapis.com/css?family=Roboto:400italic,400,700italic,700|Roboto+Condensed:300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="components/animate.css/animate.min.css">
+		<link rel="stylesheet" href="components/Boxer/jquery.fs.boxer.min.css">
+
 
 		<script src="components/modernizr/modernizr.js"></script>
+
+		<script src="components/jquery/dist/jquery.min.js"></script>
+		<script src="components/Boxer/jquery.fs.boxer.min.js"></script>
+		<script src="components/WOW/dist/wow.min.js"></script>
+		<script src="js/main.js"></script>
 
 	</head>
 
@@ -42,13 +50,13 @@
 		<div class = "row">
 			<section class="mobile-full tablet-2 desktop-4 ">
 				<h3 class="feature_header tag_ contain_center"><br>Tag It All</h3>
-				<p class="feature_details">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam suscipit aliquet felis, quis.</p>
+				<p class="feature_details tablet_feature_margin">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam suscipit aliquet felis, quis.</p>
 
 			</section>
 
 			<section class="mobile-full tablet-2 desktop-4 ">
 				<h3 class="feature_header cloud_ contain_center"><br>Cloud Sync</h3>
-				<p class="feature_details">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam suscipit aliquet felis, quis.</p>
+				<p class="feature_details tablet_feature_margin">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam suscipit aliquet felis, quis.</p>
 
 			</section>
 		
@@ -56,35 +64,55 @@
 		
 			<section class="mobile-full tablet-2 desktop-4 " >
 				<h3 class="feature_header map_ contain_center"><br>Photo Map</h3>
-				<p class="feature_details">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Ligula porta felis.</p>
+				<p class="feature_details tablet_feature_margin">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Ligula porta felis.</p>
 
 			</section>
 		</div>
 
-		<div class="gallery_background">
+		<div class="gallery_background gallery_pic">
 		<div class= "row">
-			<section class="mobile-full tablet-4 desktop-4">
-				<h3 class="gallery_header">Capture Life</h3>
+			<section class= "mobile-full tablet-4 desktop-4">
+				<h3 class="gallery_header ">Capture Life</h3>
 				<p class="feature_details">Donec ullamcorper nulla non metus auctor fringilla. Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh. </p>
 			</section>
-		
-		
-		
-		
 			
-			<div class="mobile-full tablet-2 desktop-8">
-				<div class="row">
+			
+			
+				
+					<a href="images/photos/01.jpg" class="mobile-half tablet-1 desktop-2 gallery_img_tablet   lightbox" >	
+						<img src="images/photos/thumb_01.jpg" class= "wow bounce  " alt=""> 
+					</a>
 
-					<div class="mobile-half tablet-half desktop-3 ">	<a href="#" >	<img src="images/photos/01.jpg" class= "gallery_pic" alt=""> </a> </div>
-					<div class="mobile-half tablet-half desktop-3 first_clear">	<a href="#" >	<img src="images/photos/02.jpg" class= "gallery_pic" alt=""> </a> </div>
-					<div class="mobile-half tablet-half desktop-3 ">	<a href="#" >	<img src="images/photos/03.jpg" class=" gallery_pic" alt=""> </a> </div>
-					<div class="mobile-half   desktop-3 ">	<a href="#" >	<img src="images/photos/04.jpg" class=" gallery_pic" alt=""> </a> </div>
-					<div class="mobile-half  desktop-3 ">	<a href="#" >	<img src="images/photos/05.jpg" class=" gallery_pic" alt=""> </a> </div>
-					<div class="mobile-half  desktop-3 ">	<a href="#" >	<img src="images/photos/06.jpg" class=" gallery_pic" alt=""> </a> </div>
-					<div class="mobile-half  desktop-3 ">	<a href="#" >	<img src="images/photos/07.jpg" class=" gallery_pic" alt=""> </a> </div>
-					<div class="mobile-half  desktop-3 ">	<a href="#" >	<img src="images/photos/08.jpg" class=" gallery_pic" alt=""> </a> </div>
-				</div>
-			</div>
+					<a href="images/photos/01.jpg" class="mobile-half tablet-1 desktop-2 gallery_img_tablet     lightbox" >	
+						<img src="images/photos/thumb_02.jpg" class="  " alt=""> 
+					</a> 
+
+					<a href="images/photos/03.jpg" class="mobile-half tablet-1 desktop-2    lightbox" >
+						<img src="images/photos/thumb_03.jpg" class="   " alt=""> 
+					</a>
+
+					<a href="images/photos/04.jpg" class="mobile-half tablet-1 desktop-2      lightbox" >
+						<img src="images/photos/thumb_04.jpg" class="   " alt="">
+					 </a> 
+
+					<a href="images/photos/05.jpg" class="mobile-half tablet-1 desktop-2    lightbox" >
+						<img src="images/photos/thumb_05.jpg" class="   " alt=""> 
+					</a> 
+
+					<a href="images/photos/06.jpg" class="mobile-half tablet-1 desktop-2    lightbox" >
+						<img src="images/photos/thumb_06.jpg" class="   " alt=""> 
+					</a> 
+
+					<a href="images/photos/07.jpg" class="mobile-half tablet-1 desktop-2    lightbox" >	
+						<img src="images/photos/thumb_07.jpg" class="   " alt=""> 
+					</a> 
+					<a href="images/photos/08.jpg" class="mobile-half tablet-1 desktop-2    lightbox" >	
+						<img src="images/photos/thumb_08.jpg" class="   " alt=""> 
+					</a>
+				
+
+			
+				
 			</div>
 		</div>
 
@@ -96,7 +124,7 @@
 		
 				<section class="mobile-full tablet-4 desktop-7 centered">
 						<h4 class="final_header">Download Now</h4>
-						<p class="feature_details">Nullam id dolor id nibh ultricies vehicula deposit quid pro quo hic escorol. </p>
+						<p class="feature_details tablet_feature_margin">Nullam id dolor id nibh ultricies vehicula deposit quid pro quo hic escorol. </p>
 				</section>
 	</div>
 			
@@ -125,7 +153,7 @@
 		
 
 		<div class = "mobile-full desktop-3 footer_ privacy_terms ">
-				<ul class="remove_bullet ">
+				<ul class="remove_bullet privacy_terms_center ">
 					<li class= "list_inline"> Support			 </li>
 					<li class= "list_inline"> Privacy &amp; Terms </li>
 				</ul>

@@ -107,23 +107,30 @@ font-family: 'Roboto', san-serif;
 
 }
 
-.gallery_header{
+.gallery_header {
 	font-family: 'Roboto Condensed', 'san-serif';
 	font-weight: lighter;
 	font-size: 36px;
 	line-height: 1em;
-	text-align: center;
+	text-align: left;
 	color: #2b3f4c;
+	clear:right;
 
 
 }
 
-.gallery_pic {
+.gallery_container {
+
+	vertical-align: top;
+
+}
+
+.gallery_pic img {
 	
-	height: 130px;
-	max-height:100%;
+	
+	
 	width: 100%;
-	padding-bottom: 5px;
+	
 }
 
 
@@ -372,7 +379,7 @@ font-family: 'Roboto', san-serif;
 #apple_{
 
 	display:block;
-	background: url(../images/icon_sprite.png) no-repeat -35px -200px;
+	background: url(../images/icon_sprite.png) no-repeat center -200px;
 	background-color: black;
 	text-align: center;
 	height:50px;
@@ -398,7 +405,7 @@ font-family: 'Roboto', san-serif;
 #google_play{
 
 	display:block;
-	background: url(../images/icon_sprite.png) no-repeat -35px -260px;
+	background: url(../images/icon_sprite.png) no-repeat center -260px;
 	background-color: black;
 	text-align: center;
 	height:50px;
@@ -422,7 +429,7 @@ font-family: 'Roboto', san-serif;
 #amazon_{
 
 	display:block;
-	background: url(../images/icon_sprite.png) no-repeat -35px -320px;
+	background: url(../images/icon_sprite.png) no-repeat center -320px;
 	background-color: black;
 	text-align: center;
 	height:50px;
@@ -539,6 +546,12 @@ font-family: 'Roboto', san-serif;
 	clear:right;
 }
 
+.privacy_terms_center{
+	
+	text-align: center;
+
+}
+
 
 
 
@@ -579,6 +592,7 @@ font-family: 'Roboto', san-serif;
 
 	display: inline-block;
 	text-align: center;
+	
 
 	margin-bottom: 0px;
 }
@@ -596,6 +610,29 @@ font-family: 'Roboto', san-serif;
 
 	text-align: left;
 }
+
+.gallery_pic img{
+	clear:right;
+	
+}
+
+.gallery_img_tablet{
+
+	margin:100px 0 0 0;
+
+
+}
+
+ .feature_details{
+
+ 	margin-bottom: 0px;
+ 	text-align: left;
+ }
+
+ .tablet_feature_margin{
+
+ 	margin: 0 0 50px 0;
+ }
 	
 
 
@@ -635,6 +672,16 @@ font-family: 'Roboto', san-serif;
 	margin-bottom: 0px;
 	margin-right: 10px;
 }
+
+.gallery_header{
+
+	text-align: center;
+	vertical-align:bottom;
+}
+
+
+
+
 
 }
 
