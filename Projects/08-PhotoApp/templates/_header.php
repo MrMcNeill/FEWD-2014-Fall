@@ -12,6 +12,9 @@
 
 		<script src="components/modernizr/modernizr.js"></script>
 		<script src="components/jquery/dist/jquery.min.js"></script>
+		
+		<script src="components/Boxer/jquery.fs.boxer.min.js"></script>
+		<link rel="stylesheet" href="components/Boxer/jquery.fs.boxer.min.css">
 
 	</head>
 
